@@ -1,0 +1,29 @@
+.Footerlist{
+    padding: 16px 16px 16px 16px;
+    border: 0.2em;
+    width : 50% ;
+    background-color: white;
+    box-shadow: inset 0 -2px 1px rgb(0 0 0 / 3%);
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    font-weight: 200;
+}
+
+.itemcount{
+    margin-right: 2rem;
+}
+.btn{
+    background-color: white;
+    border-width: 0;
+    margin-left: 1rem;
+}
+
+.btn .clr{
+    float : right
+}
+
+.btn:hover{
+    border-width: 1px;
+    border-color: rgba(175, 47, 47, 0.2);
+}
